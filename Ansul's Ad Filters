@@ -1,0 +1,12 @@
+! Title: Ansul's Ad Filters
+! Description: Some of these filters make use of the `important` filter option,
+!              which purpose is to guarantee that a filter won't be overriden by
+!              exception filters.
+! Expires: 4 days
+! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+! Homepage: https://github.com/ansul1001/Anti-Facebook-Filter-List.git
+!
+facebook.com##div[id^="hyperfeed_story_id_"]:not(div:contains(/^[class="timestampContent"])):not(span:contains(/^m$/)):not(span:contains(/^M$/)):not(span:contains(/^h$/)):not(span:contains(/^:$/)):not(span:contains(/^J$/)):has(span:contains(/^S$/))
+facebook.com##:xpath(//div[starts-with(@id, 'pagelet') and (.//a[.='Sponsored'])]  )
+facebook.com###pagelet_ego_pane
+facebook.com###pagelet_video_home_watch_list_rhc
