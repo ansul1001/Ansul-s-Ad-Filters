@@ -5,6 +5,7 @@
 ! Expires: 4 days
 ! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Homepage: https://github.com/ansul1001/Anti-Facebook-Filter-List.git
+!Facebook
 !
 facebook.com##div[id^="hyperfeed_story_id_"]:not(div:contains(/^[class="timestampContent"])):not(span:contains(/^m$/)):not(span:contains(/^M$/)):not(span:contains(/^h$/)):not(span:contains(/^:$/)):not(span:contains(/^J$/)):has(span:contains(/^S$/))
 facebook.com##:xpath(//div[starts-with(@id, 'pagelet') and (.//a[.='Sponsored'])]  )
