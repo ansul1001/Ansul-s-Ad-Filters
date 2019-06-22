@@ -21,11 +21,16 @@ www.yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth
 !Duck Duck Go
 !
 duckduckgo.com##.js-badge-link.ddg-extension-hide.badge-link--fadein.badge-link--top.badge-link
-! https://drivetribe.com
-!
+!drivetribe
+! 
 drivetribe.com##.hyBTKR.sc-DNdyV
 drivetribe.com##.fnrkLU.sc-ipZHIp
 drivetribe.com##.kxTRAT.sc-cqPOvA
 drivetribe.com##.bbpyed.sc-cqPOvA
 drivetribe.com##.PuJAk.sc-hwcHae
 drivetribe.com##.dfEzpW.sc-hwcHae
+!reddit.com
+!
+reddit.com##div[id^="t3_c3nzjc"]
+reddit.com##div[id^="t3_c3j9vs"]
+reddit.com##div[id^="t3_c3ifxa"]
