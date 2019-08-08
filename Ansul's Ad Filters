@@ -12,6 +12,7 @@ facebook.com##:xpath(//div[starts-with(@id, 'pagelet') and (.//a[.='Sponsored'])
 facebook.com###pagelet_ego_pane
 facebook.com###pagelet_video_home_watch_list_rhc
 facebook.com##div[id=hyperfeedstory_id]:has(a[role=button]:has(> b class:has-text(/S/i):has-text(p):has-text(o):has-text(n):has-text(r):has-text(e):has-text(d):not(:has-text(m)):not(:has-text(M)):not(:has-text(h)):not(:has-text(:)):not(:has-text(J))))
+facebook.com##div[id^=hyperfeed_story_id_]:has(span[data-ft="{\"tn\":\"j\"}"])
 !Yelp
 !
 www.yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(2) > .border-color--default__373c0__2oFDT.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
