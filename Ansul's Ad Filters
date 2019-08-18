@@ -7,13 +7,12 @@
 ! Homepage: https://github.com/ansul1001/Ansul-s-Ad-Filters.git
 !Facebook
 !
-facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has-text(/S/i):has-text(p):has-text(o):has-text(n):has-text(r):has-text(e):has-text(d):not(:has-text(m)):not(:has-text(M)):not(:has-text(h)):not(:has-text(:)):not(:has-text(J))))
 facebook.com##:xpath(//div[starts-with(@id, 'pagelet') and (.//a[.='Sponsored'])]  )
 facebook.com###pagelet_ego_pane
 facebook.com###pagelet_video_home_watch_list_rhc
-facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has([data-content="S"]):not(:has([data-content="m"])):not(:has([data-content="M"])):not(:has([data-content="h"])):not(:has([data-content=":"])):not(:has([data-content="J"]))))
 facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has([data-content="S"]):not(:has([data-content="1"])):not(:has([data-content="2"])):not(:has([data-content="3"])):not(:has([data-content="4"])):not(:has([data-content="5"])):not(:has([data-content="6"])):not(:has([data-content="7"])):not(:has([data-content="8"])):not(:has([data-content="9"])):not(:has([data-content="w"]))))
 facebook.com##div[id^=hyperfeed_story_id_] .fbfeed_story div:has-text(Suggested for You)
+facebook.com##div[id^=hyperfeed_story_id_] .userContentWrapper div:has-text(Suggested for You)
 !Yelp
 !
 www.yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(2) > .border-color--default__373c0__2oFDT.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
