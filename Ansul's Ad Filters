@@ -10,8 +10,6 @@
 facebook.com##:xpath(//div[starts-with(@id, 'pagelet') and (.//a[.='Sponsored'])]  )
 facebook.com###pagelet_ego_pane
 facebook.com###pagelet_video_home_watch_list_rhc
-facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has([data-content="S"]):not(:has([data-content="1"])):not(:has([data-content="2"])):not(:has([data-content="3"])):not(:has([data-content="4"])):not(:has([data-content="5"])):not(:has([data-content="6"])):not(:has([data-content="7"])):not(:has([data-content="8"])):not(:has([data-content="9"])):not(:has([data-content="w"]))))
-facebook.com##div[id^=hyperfeed_story_id_] .fbfeed_story div:has-text(Suggested for You)
 facebook.com##div[id^=hyperfeed_story_id_] .userContentWrapper div:has-text(Suggested for You)
 !Yelp
 !
