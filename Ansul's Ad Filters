@@ -11,6 +11,7 @@ facebook.com##:xpath(//div[starts-with(@id, 'pagelet') and (.//a[.='Sponsored'])
 facebook.com###pagelet_ego_pane
 facebook.com###pagelet_video_home_watch_list_rhc
 facebook.com##div[id^=hyperfeed_story_id_] .userContentWrapper div:has-text(Suggested for You)
+facebook.com##.userContentWrapper:if(span:matches-css-after(content: "Suggested post";))
 !Yelp
 !
 www.yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(2) > .border-color--default__373c0__2oFDT.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
