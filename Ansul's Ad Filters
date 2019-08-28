@@ -37,3 +37,7 @@ drivetribe.com##.kxTRAT.sc-cqPOvA
 drivetribe.com##.bbpyed.sc-cqPOvA
 drivetribe.com##.PuJAk.sc-hwcHae
 drivetribe.com##.dfEzpW.sc-hwcHae
+!reddit
+!
+reddit.com##div[id^="t3"]:has-text(politics)
+reddit.com##div[id^="t3"]:has-text(worldnews)
