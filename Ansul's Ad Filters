@@ -41,3 +41,4 @@ drivetribe.com##.dfEzpW.sc-hwcHae
 !
 reddit.com##div[id^="t3"]:has-text(politics)
 reddit.com##div[id^="t3"]:has-text(worldnews)
+reddit.com##div[id^="t3"]:has-text(WatchPeopleDieInside)
