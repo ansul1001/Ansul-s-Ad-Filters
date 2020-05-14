@@ -16,7 +16,6 @@ facebook.com#?#div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has([
 facebook.com###pagelet_marketplace_recently_viewed_rhc
 facebook.com###pagelet_ego_contextual_group
 facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has-text(/S/i):has-text(p):has-text(o):has-text(n):has-text(r):has-text(e):has-text(d):not(:has-text(0)):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
-facebook.com##div[id^=span_id_]:has(div:has-text(/Learn More|Shop Now|Get Offer|Sign Up|Play Game/))
 facebook.com##div[id^=span_id_]:has(a[role^=button]:has(> span:has-text(/S/i):has-text(p):has-text(o):has-text(n):has-text(r):has-text(e):has-text(d):not(:has-text(0)):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
 !Yelp
 !
