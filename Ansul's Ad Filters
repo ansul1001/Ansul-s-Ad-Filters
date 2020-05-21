@@ -17,7 +17,7 @@ facebook.com###pagelet_marketplace_recently_viewed_rhc
 facebook.com###pagelet_ego_contextual_group
 facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has-text(/S/i):has-text(p):has-text(o):has-text(n):has-text(r):has-text(e):has-text(d):not(:has-text(0)):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
 facebook.com##div[role^="feed"]:has(> span:has-text(/S/i):has-text(p):has-text(o):has-text(n):has-text(r):has-text(e):has-text(d):not(:has-text(0)):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w)))
-facebook.com##div[class="hybvsw6c ue3kfks5 pw54ja7n uo3d90p7 l82x9zwi rq0escxv ni8dbmo4 stjgntxs l9j0dhe7 k4urcfbm sbcfpzgs"]:has(span:has-text(/Learn More|Shop Now|Get Offer|Sign Up|Play Game|tinyurl/))
+facebook.com##div[class="hybvsw6c ue3kfks5 pw54ja7n uo3d90p7 l82x9zwi rq0escxv ni8dbmo4 stjgntxs l9j0dhe7 k4urcfbm sbcfpzgs"]:has(span:has-text(/Learn More|Shop Now|Get Offer|Sign Up|Play Game|tinyurl|Discounts/))
 !Yelp
 !
 www.yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(2) > .border-color--default__373c0__2oFDT.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
