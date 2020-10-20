@@ -18,7 +18,7 @@ facebook.com###pagelet_ego_contextual_group
 facebook.com#?#div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has-text(Scontent="2"])):not(:has([data-content="3"])):not(:has([data-content="4"])):not(:has([data-content="5"])):not(:has([data-content="6"])):not(:has([data-content="7"])):not(:has([data-content="8"])):not(:has([data-content="9"])):not(:has([data-content="w"])))
 facebook.com##div[data-pagelet^="FeedUnit"]:has-text(/Suggested Events|Suggested for You/)
 facebook.com#?#div[data-pagelet^="FeedUnit"]:has(span:has-text(/Sponsored/))
-facebook.com##div[data-pagelet^="FeedUnit"]:has(span:has-text(/Learn More|Shop Now|Get Offer|Sign Up|Play Game|tinyurl|Discounts/))
+facebook.com##div[data-pagelet^="FeedUnit"]:has(span:has-text(/Learn More|Shop Now|Get Offer|Sign Up|Play Game|tinyurl|Discounts|Get Tickets|Interested/))
 !Yelp
 !
 www.yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(2) > .border-color--default__373c0__2oFDT.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
