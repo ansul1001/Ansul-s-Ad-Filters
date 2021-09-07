@@ -10,12 +10,11 @@
 facebook.com##:xpath(//div[starts-with(@id, 'pagelet') and (.//a[.='Sponsored'])]  )
 facebook.com###pagelet_ego_pane
 facebook.com###pagelet_video_home_watch_list_rhc
-facebook.com##div[id^=hyperfeed_story_id_] .userContentWrapper div:has-text(/Suggested Events|Suggested for You/)
 facebook.com##.userContentWrapper:if(span:matches-css-after(content: "Suggested post";))
 facebook.com###pagelet_marketplace_recently_viewed_rhc
 facebook.com###pagelet_ego_contextual_group
-facebook.com##div[data-pagelet^="FeedUnit"]:has-text(/Suggested Events|Suggested for You/)
-facebook.com##div[data-pagelet="FeedUnit_{n}"]:has-text(/Suggested Events|Suggested for You/)
+facebook.com##div[data-pagelet^="FeedUnit"]:has-text(/Suggested Events|Suggested for you/)
+facebook.com##div[data-pagelet="FeedUnit_}"]:has-text(/Suggested Events|Suggested for you/)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has(a[aria-label="Sponsored"])
 facebook.com##div[data-pagelet^="FeedUnit"]:has(span:has-text(/Sponsored/):not(:has-text(/1|2|3|4|5|6|7|8|9|w/)))
 facebook.com##div[data-pagelet^="FeedUnit_"]:has([role="link"]:has(> span > span:matches-css(position: relative):has-text(S)))
