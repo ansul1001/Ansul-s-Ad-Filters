@@ -49,4 +49,7 @@ https://acdn.adnxs.com/ast/ast.js
 https://polyfill.io/v3/polyfill.min.js?flags=gated
 https://content.jwplatform.com/libraries/2K0cYisN.js
 https://rhetoricalloss.com/v2/0/lpvJm3_RkcS-vr_qgSHMbYB-jcbRkH2oNRB2URpg6t2W3jP_TPy9Na4D7qHs5MdytwG
+!Reddit
+!
+reddit.com##.scrollerItem:has-text(livestream)
 
