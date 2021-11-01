@@ -16,6 +16,8 @@ facebook.com###pagelet_ego_contextual_group
 facebook.com##div[data-pagelet^="FeedUnit"]:has-text(/Suggested Events|Suggested for you/)
 facebook.com##div[data-pagelet="FeedUnit_}"]:has-text(/Suggested Events|Suggested for you/)
 facebook.com##[role="feed"] span[id] a[href="#"]:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div)
+facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(display: none):remove()
+facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(position: absolute):remove()
 !Yelp
 !
 www.yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(2) > .border-color--default__373c0__2oFDT.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
