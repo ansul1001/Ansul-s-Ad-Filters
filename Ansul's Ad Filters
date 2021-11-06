@@ -15,7 +15,6 @@ facebook.com###pagelet_marketplace_recently_viewed_rhc
 facebook.com###pagelet_ego_contextual_group
 facebook.com##div[data-pagelet^="FeedUnit"]:has-text(/Suggested Events|Suggested for you/)
 facebook.com##div[data-pagelet="FeedUnit_}"]:has-text(/Suggested Events|Suggested for you/)
-facebook.com##[role="feed"] span[id] a[href="#"]:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div)
 facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(display: none):remove()
 facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(position: absolute):remove()
 facebook.com##div[data-pagelet^="FeedUnit"]:has(:has-text(Sponsored))
