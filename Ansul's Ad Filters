@@ -18,7 +18,7 @@ facebook.com##div[data-pagelet="FeedUnit_}"]:has-text(/Suggested Events|Suggeste
 facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(display: none):remove()
 facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(position: absolute):remove()
 facebook.com##[role="feed"]>div:has-text(Sponsored)
-facebook.com##[role="feed"]>div:has-text(Shop)
+facebook.com##[role="feed"]>div:has-text(Suggested)
 !Yelp
 !
 www.yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(2) > .border-color--default__373c0__2oFDT.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
