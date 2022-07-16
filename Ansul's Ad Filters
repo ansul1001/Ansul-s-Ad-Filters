@@ -17,6 +17,7 @@ facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(display: none):rem
 facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(position: absolute):remove()
 facebook.com##[role="feed"] span[id] a[href="#"]:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div)
 facebook.com##[role="feed"]>div:has-text(Suggested)
+facebook.com##[role="feed"]>div:has-text(Sponsored)
 facebook.com##[role=feed] span[id]>span[class]:first-child+span:not([class]) a[href^="?__cft__[0]="][href*="&__tn__=%2CP-R"]:upward([role=feed]>div)
 !Yelp
 !
