@@ -15,12 +15,9 @@ facebook.com###pagelet_marketplace_recently_viewed_rhc
 facebook.com###pagelet_ego_contextual_group
 facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(display: none):remove()
 facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(position: absolute):remove()
-facebook.com##[role="feed"] span[id] a[href="#"]:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div)
-facebook.com##[role="feed"]>div:has-text(Suggested)
-facebook.com##[role="feed"]>div:has-text(Sponsored)
-facebook.com##[role="feed"]>span:has-text(Sponsored)
-facebook.com##[role=feed] span[id]>span[class]:first-child+span:not([class]) a[href^="?__cft__[0]="][href*="&__tn__=%2CP-R"]:upward([role=feed]>div, [role=feed]>span)
-facebook.com##span[id="ssrb_feed_start"] ~ * h3 ~ div > div:not([class]) span[id] > span > span > a[href="#"] span > span:has( > svg > use[*|href]:not([href])):matches-css(width:/^(58|59|60)(.|p)/i):upward(span[id="ssrb_feed_start"] ~ * h3 ~ div)
+facebook.com##span[id="ssrb_feed_start"] ~ * h3 ~ div > div:not([class]) span[id] > span > span > a[href="#"] span > span:has( > svg > use[*|href]:not([href])):matches-css(width:/^(55|56|57|58)(.|p)/i):upward(span[id="ssrb_feed_start"] ~ * h3 ~ div)
+facebook.com##span[id="ssrb_feed_start"] ~ * h3 ~ div > div > div > div > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div > div > span:not(>*):upward(span[id="ssrb_feed_start"] ~ * h3 ~ div)
+facebook.com##div[class="x1lliihq"]:has-text(Sponsored)
 !Yelp
 !
 www.yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(2) > .border-color--default__373c0__2oFDT.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
