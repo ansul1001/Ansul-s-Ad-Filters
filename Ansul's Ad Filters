@@ -18,8 +18,7 @@ facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(position: absolute
 facebook.com##span[id="ssrb_feed_start"] ~ * h3 ~ div > div:not([class]) span[id] > span > span > a[href="#"] span > span[class]:has(svg > use[*|href]:not([href])):matches-css(width:/^(55|56|57|58)(.|p)/i):upward(span[id="ssrb_feed_start"] ~ * h3 ~ div)
 facebook.com##span[id="ssrb_feed_start"] ~ * h3 ~ div > div > div > div > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div > div > span:not(>*):upward(span[id="ssrb_feed_start"] ~ * h3 ~ div)
 facebook.com##div[class="x1lliihq"]:has-text(Sponsored)
-facebook.com##span[id="ssrb_feed_start"] ~ div > h3 ~ div > div > div:not([class]) span[id] > span > span > a[href="#"] span > span[class]:has(svg > use[*|href]:not([href])):matches-css(width:/^(55|56|57|58)(.|p)/i):upward(span[id="ssrb_feed_start"] ~ div > h3 ~ div > div)
-facebook.com##span[id="ssrb_feed_start"] ~ div > h3 ~ div > div > div:not([class]) span[id] > span > span > a[href="#"] span > span[class]:has(svg > use[*|href]:not([href])):matches-css(width:/^(58|59|60)(.|p)/i):upward(span[id="ssrb_feed_start"] ~ div > h3 ~ div > div)
+facebook.com##h3[dir="auto"] ~ div:not([class]) > div[class] > div > div span[id] > span > span > a[href="#"] span > span[class]:has(svg > use[*|href]:not([href])):matches-css(width:/^(55|56|57|58)(.|p)/i):upward(h3[dir="auto"] ~ div:not([class]) > div[class] > div):style(width:0 !important; height:0 !important;)
 !Yelp
 !
 www.yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(2) > .border-color--default__373c0__2oFDT.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
