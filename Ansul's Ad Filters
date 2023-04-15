@@ -4,27 +4,27 @@
 !              exception filters.
 ! Expires: 4 days
 ! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
-! Homepage: https://github.com/ansul1001/Ansul-s-Ad-Filters.git
+! Homepage: https://github.com/ansul1001/Ansul-s-Ad-Filters
 !Facebook
 !
-facebook.com##:xpath(//div[starts-with(@id, 'pagelet') and (.//a[.='Sponsored'])]  )
-facebook.com###pagelet_ego_pane
-facebook.com###pagelet_video_home_watch_list_rhc
-facebook.com##.userContentWrapper:if(span:matches-css-after(content: "Suggested post";))
-facebook.com###pagelet_marketplace_recently_viewed_rhc
-facebook.com###pagelet_ego_contextual_group
-facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(display: none):remove()
-facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(position: absolute):remove()
-facebook.com##span[id="ssrb_feed_start"] ~ * h3 ~ div > div:not([class]) span[id] > span > span > a[href="#"] span > span[class]:has(svg > use[*|href]:not([href])):matches-css(width:/^(55|56|57|58)(.|p)/i):upward(span[id="ssrb_feed_start"] ~ * h3 ~ div)
-facebook.com##span[id="ssrb_feed_start"] ~ * h3 ~ div > div > div > div > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div > div > span:not(>*):upward(span[id="ssrb_feed_start"] ~ * h3 ~ div)
-facebook.com##div[class="x1lliihq"]:has-text(Sponsored)
-facebook.com##h3[dir="auto"] ~ div:not([class]) > div[class] > div > div span[id] > span > span > a[href="#"] span > span[class]:has(svg > use[*|href]:not([href])):matches-css(width:/^(55|56|57|58)(.|p)/i):upward(h3[dir="auto"] ~ div:not([class]) > div[class] > div):style(width:0 !important; height:0 !important;)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:xpath(//div[starts-with(@id, 'pagelet') and (.//a[.='Sponsored'])]  )
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###pagelet_ego_pane
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###pagelet_video_home_watch_list_rhc
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.userContentWrapper:if(span:matches-css-after(content: "Suggested post";))
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###pagelet_marketplace_recently_viewed_rhc
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###pagelet_ego_contextual_group
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[role="feed"] span[id] a[href="#"] :matches-css(display: none):remove()
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[role="feed"] span[id] a[href="#"] :matches-css(position: absolute):remove()
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##span[id="ssrb_feed_start"] ~ * h3 ~ div > div:not([class]) span[id] > span > span > a[href="#"] span > span[class]:has(svg > use[*|href]:not([href])):matches-css(width:/^(55|56|57|58)(.|p)/i):upward(span[id="ssrb_feed_start"] ~ * h3 ~ div)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##span[id="ssrb_feed_start"] ~ * h3 ~ div > div > div > div > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div > div > span:not(>*):upward(span[id="ssrb_feed_start"] ~ * h3 ~ div)
+facebook.com.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[class="x1lliihq"]:has-text(Sponsored)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##h3[dir="auto"] ~ div:not([class]) > div[class] > div > div span[id] > span > span > a[href="#"] span > span[class]:has(svg > use[*|href]:not([href])):matches-css(width:/^(55|56|57|58)(.|p)/i):upward(h3[dir="auto"] ~ div:not([class]) > div[class] > div):style(width:0 !important; height:0 !important;)
 !Yelp
 !
-www.yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(2) > .border-color--default__373c0__2oFDT.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
-www.yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(1) > .border-color--default__373c0__2oFDT.lemon--div__373c0__1mboc > .border-color--default__373c0__2oFDT.u-padding-b1.u-padding-t1.lemon--div__373c0__1mboc
-www.yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(3) > .border-color--default__373c0__2oFDT.border--top__373c0__19Owr.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
-www.yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(4) > .border-color--default__373c0__2oFDT.border--top__373c0__19Owr.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
+yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(2) > .border-color--default__373c0__2oFDT.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
+yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(1) > .border-color--default__373c0__2oFDT.lemon--div__373c0__1mboc > .border-color--default__373c0__2oFDT.u-padding-b1.u-padding-t1.lemon--div__373c0__1mboc
+yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(3) > .border-color--default__373c0__2oFDT.border--top__373c0__19Owr.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
+yelp.com##li.border-color--default__373c0__2oFDT.lemon--li__373c0__1r9wz:nth-of-type(4) > .border-color--default__373c0__2oFDT.border--top__373c0__19Owr.u-padding-b3.u-padding-t3.lemon--div__373c0__1mboc
 !Duck Duck Go
 !
 duckduckgo.com##.js-badge-link.ddg-extension-hide.badge-link--fadein.badge-link--top.badge-link
@@ -43,15 +43,15 @@ drivetribe.com##.PuJAk.sc-hwcHae
 drivetribe.com##.dfEzpW.sc-hwcHae
 !Weatherbug
 !
-https://cdn.taboola.com/libtrc/weatherbug-weatherbug/loader.js
-https://acdn.adnxs.com/ast/ast.js
-https://polyfill.io/v3/polyfill.min.js?flags=gated
-https://content.jwplatform.com/libraries/2K0cYisN.js
-https://rhetoricalloss.com/v2/0/lpvJm3_RkcS-vr_qgSHMbYB-jcbRkH2oNRB2URpg6t2W3jP_TPy9Na4D7qHs5MdytwG
+||cdn.taboola.com/libtrc/weatherbug-weatherbug/loader.js
+||acdn.adnxs.com/ast/ast.js
+||polyfill.io/v3/polyfill.min.js?flags=gated
+||content.jwplatform.com/libraries/2K0cYisN.js
+||rhetoricalloss.com/v2/0/lpvJm3_RkcS-vr_qgSHMbYB-jcbRkH2oNRB2URpg6t2W3jP_TPy9Na4D7qHs5MdytwG
 !Reddit
 !
 reddit.com##.scrollerItem:has-text(livestream)
 !
 !mlb66.ir
-https://oscism.com
-https://sumpki.com
+||oscism.com^
+||sumpki.com^
